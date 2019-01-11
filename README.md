@@ -1,35 +1,46 @@
-# Startâe MVP
+# Startê MVP
 
-![Version](https://img.shields.io/badge/version-1.0-green.svg)
+![Version]()
 
-A simple React app displaying team members of Startâe.
+![Startâe MVP](https://github.com/matheuseabra/startae-mvp/public/Startaê-Homepage.png)
+
+A simple React app displaying team members of Startê.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo
+
+[http://matheuseabra.me/startae-mvp](http://matheuseabra.me/startae-mvp)
+
 ## Quickstart
 
-In the project directory, you can run:
+In the project root directory, you can run the:
 
-### `npm install` or `yarn install`
+#### `npm install` or `yarn install`
 
-### `npm start` or `yarn start`
+Install project dependencies. 
+
+#### `npm start` or `yarn start`
 
 Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Folder Structure
 
-The folder structure of the project was assembled in the following manner:
+The folder structure of the project was built in the following manner:
 
 - src
   - assets
   - components
+  - pages
   - services
+  - styles
   - App.js
+  - routes.js
+  - index.js
 
 ## Libraries
-
-Abaixo estão todas as libs usadas na aplicação até o momento, e suas respectivas funcionalidades
 
 Name| Function
 |:---:| :-----:|
@@ -38,18 +49,19 @@ react-dom | Create-react-app dependency
 react-scripts | Create-react-app dependency
 react-router | Gerência de Rotas
 axios | HTTP Client for making requests
+gh-pages | Deploys static bundle to GitHub Pages
 
 ## Deployment
 
-Makes the build process optimized for production
+#### `npm run build`
 
-### `npm run build`
+Makes the build process optimized for production
 
 ## Style Guide
 
 ### Tipography
 
-- font: 'Proima Nova', sans-serif
+- font: 'Proxima Nova', sans-serif
 - font-light: 300
 - font-regular: 400
 - font-bold: 700
@@ -60,13 +72,13 @@ Makes the build process optimized for production
 
 ### Color Pallete
 
-  -primary: #5d1eb2
-  -secondary: #ff223e
-  -white: #FFF
-  -white-opaque: #F5F5F5
-  -grey: #DDDDDD
-  -dark-grey: #464646
-  -black: #212121
+  - primary: #5d1eb2
+  - secondary: #ff223e
+  - white: #FFF
+  - white-opaque: #F5F5F5
+  - grey: #DDDDDD
+  - dark-grey: #464646
+  - black: #212121
 
 ### Headings
 
@@ -84,3 +96,5 @@ Makes the build process optimized for production
 ## Author
 
 This project was developed by Matheus Seabra.
+http://matheuseabra.me/
+Twitter: @matseabra
