@@ -14,13 +14,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Quickstart
 
-In the project root directory, you can run the:
+In the project root directory, you can run:
 
-#### `npm install` or `yarn install`
+#### `yarn install`
 
 Install project dependencies. 
 
-#### `npm start` or `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.
 
@@ -47,9 +47,10 @@ Name| Function
 react | Create-react-app dependency
 react-dom | Create-react-app dependency
 react-scripts | Create-react-app dependency
-react-router | Gerência de Rotas
+react-router | Client-side Routing for React
+react-router-dom | DOM bindings for React Router
 axios | HTTP Client for making requests
-gh-pages | Deploys static bundle to GitHub Pages
+gh-pages | Deploy static bundle to GitHub Pages
 
 ## Deployment
 
@@ -70,7 +71,7 @@ Makes the build process optimized for production
 - font-size-md: 16px
 - font-size-lg: 18px
 
-### Color Pallete
+### Color Palette
 
   - primary: #5d1eb2
   - secondary: #ff223e
@@ -91,10 +92,10 @@ Makes the build process optimized for production
 
 - sm: 480px
 - md: 678px
-- lg: 768px
+- lg: 768px or higher
 
 ## Author
 
 This project was developed by Matheus Seabra.
-http://matheuseabra.me/
+Website: http://matheuseabra.me
 Twitter: @matseabra
