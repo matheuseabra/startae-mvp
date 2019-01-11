@@ -1,3 +1,5 @@
+![Version](https://github.com/matheuseabra/startae-mvp/blob/master/src/assets/logos/logo-symbol.svg)
+
 # Startaê MVP
 
 ![Version](https://img.shields.io/badge/version-1.0-green.svg)
