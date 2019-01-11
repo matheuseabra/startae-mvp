@@ -12,17 +12,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [http://matheuseabra.me/startae-mvp](http://matheuseabra.me/startae-mvp)
 
-## Quickstart
+## Running locally
 
-In the project root directory, you can run:
+Install project dependencies: 
 
-#### `yarn install`
+- npm install
+- yarn install
 
-Install project dependencies. 
+Start the development server:
 
-#### `yarn start`
-
-Runs the app in the development mode.
+- npm start
+- yarn start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -97,5 +97,5 @@ Makes the build process optimized for production
 ## Author
 
 This project was developed by Matheus Seabra.
-Website: http://matheuseabra.me
-Twitter: @matseabra
+- Website: http://matheuseabra.me
+- Twitter: @matseabra
