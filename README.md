@@ -1,8 +1,8 @@
 # Startê MVP
 
-![Version]()
+![Version](https://img.shields.io/badge/version-1.0-green.svg)
 
-![Startâe MVP](https://github.com/matheuseabra/startae-mvp/public/Startaê-Homepage.png)
+![Startaê MVP](https://github.com/matheuseabra/startae-mvp/public/StartaeHomepage.png)
 
 A simple React app displaying team members of Startê.
 
