@@ -1,10 +1,10 @@
-# Startê MVP
+# Startaê MVP
 
 ![Version](https://img.shields.io/badge/version-1.0-green.svg)
 
 ![Startaê MVP](https://github.com/matheuseabra/startae-mvp/blob/master/public/StartaeHomepage.png)
 
-A simple React app displaying team members of Startê.
+A simple React app displaying team members of Startaê.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
