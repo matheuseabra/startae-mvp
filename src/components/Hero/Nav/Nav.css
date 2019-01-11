@@ -1,0 +1,13 @@
+.navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+    margin-left: -3.25rem;
+}
+
+.logo {
+    height: auto;
+    width: 300%;
+    padding-top: 40px;
+}
+
+.logo img:first-child {
+    margin-right: 8px;
+}

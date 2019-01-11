@@ -1,5 +1,7 @@
 import React from "react";
-import Logo from '../../assets/logos/logo-type.svg';
+import Symbol from '../../../assets/logos/logo-symbol.svg';
+import LogoType from '../../../assets/logos/logo-type.svg';
+import './Nav.css';
 
 const Nav = () => {
   return (
@@ -7,7 +9,10 @@ const Nav = () => {
           <nav className="navbar">
               <div className="container">
                   <div className="navbar-brand">               
-                        <img src={Logo} alt="Startaê Logo" />                      
+                        <span className="logo">
+                            <img src={Symbol} alt="Startaê Logo Symbol" />
+                            <img src={LogoType} alt="Startaê LogoType" />
+                        </span>                      
                         <span className="navbar-burger burger" data-target="navbarMenuHeroA">
                             <span></span>
                             <span></span>

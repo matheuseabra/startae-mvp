@@ -1,6 +1,65 @@
+@font-face {
+    font-family: 'Proxima Nova Light', sans-serif;
+    src: url('../../assets/fontes/ProximaNova-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: thin;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light Italic', sans-serif;
+  src: url('../../assets/fontes/ProximaNova-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+.section-title h2 {
+    z-index: 10;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    width: 70%;
+}
+
+.bg-red {
+    background-color: #ff223e;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 6px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Proxima Nova Light', sans-serif;
+}
+
+.member-name {
+    font-family: 'Proxima Nova Light', sans-serif !important;
+    color: #000;
+    font-size: 1.2em;
+    font-weight: thin;
+}
+
+.member-role {
+    color: #222;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.member-twitter {
+    white-space: none;
+    text-transform: lowercase;
+    font-family: 'Proxima Nova Light Italic', sans-serif;
+    color: #777;
+    font-weight: thin;
+    font-size: 0.8em;
+}
+
+.member-tweet {
+    font-family: 'Proxima Nova Light Italic', sans-serif;
+    color: #777;
+    font-size: 0.8em;
 }
