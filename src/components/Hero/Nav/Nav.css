@@ -4,10 +4,27 @@
 
 .logo {
     height: auto;
-    width: 300%;
+    width: 100%;
+    margin: 0;
     padding-top: 40px;
 }
 
 .logo img:first-child {
     margin-right: 8px;
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 468px) {
+    .navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+        margin-left: 18px;
+    }
+}
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+	.navbar > .container .navbar-brand, .container > .navbar .navbar-brand {
+        margin-left: 18px;
+    }
+} 

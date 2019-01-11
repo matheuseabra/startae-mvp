@@ -10,8 +10,8 @@ const Nav = () => {
               <div className="container">
                   <div className="navbar-brand">               
                         <span className="logo">
-                            <img src={Symbol} alt="Startaê Logo Symbol" />
-                            <img src={LogoType} alt="Startaê LogoType" />
+                            <img className="symbol" src={Symbol} alt="Startaê Logo Symbol" />
+                            <img className="is-hidden-mobile" src={LogoType} alt="Startaê LogoType" />
                         </span>                      
                         <span className="navbar-burger burger" data-target="navbarMenuHeroA">
                             <span></span>

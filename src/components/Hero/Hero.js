@@ -16,7 +16,7 @@ const Hero = (props) => {
         </div>
         <div className="hero-foot">
             <div className="is-fluid">
-              <h2 class="tweets-title"><img src={LogoTwitter} alt="Twitter Logo" /> Latest tweets from our team</h2>
+              <h2 className="tweets-title"><img src={LogoTwitter} alt="Twitter Logo" /> Latest tweets from our team</h2>
             </div>
         </div>
       </section>

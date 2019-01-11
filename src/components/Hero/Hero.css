@@ -44,3 +44,53 @@
 	transform: skewY(18deg);
 	z-index: 0;
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 468px) {
+    .hero-title {
+		font-size: 1em;
+		font-weight: 700;
+		color: #FFF;
+	}
+
+	.hero-desc {
+		max-width: 75%;
+		color: #FFF;
+	}
+
+	.tweets-title {
+		padding: 20px 30px;
+		color: #FFF;
+		margin: 0;
+		font-size: 1.4em;
+		font-weight: 300;
+		opacity: 0.75;
+	}
+
+	
+}
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 600px) {
+	.hero-title {
+		font-size: 2em;
+		font-weight: 700;
+		color: #FFF;
+	}
+
+	.hero-desc {
+		max-width: 75%;
+		color: #FFF;
+	}
+
+	.tweets-title {
+		padding: 20px 30px;
+		color: #FFF;
+		margin: 0;
+		font-size: 1.4em;
+		font-weight: 300;
+		opacity: 0.75;
+	}
+} 
